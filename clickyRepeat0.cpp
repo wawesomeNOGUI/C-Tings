@@ -30,7 +30,7 @@ void MouseUp () {
 
 
 int main(){
-  int where = 0;
+  int where = 1;
   int speed = 0;
 
     std::cout << "How Fast in milliseconds? (Type 0 for default)";
