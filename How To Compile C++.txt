@@ -1,0 +1,23 @@
+-To compile C++ Programs use:
+ "g++ <the .cpp filename> -o <new .exe filename you want> -l<.dll libraries you want to use>"
+
+-e.g. To compile a OpenGL program using the GLFW library use:
+
+g++ openGLTest.cpp -o openGLTest.exe -lglfw3dll -lopengl32
+
+glfw3.dll is the dynamic linked library of GLFW
+opengl32 is the dynamic linked library of OpenGL that GLFW references??
+
+Not sure about how this all works but it does???
+
+
+-To compile pixelRead program, or any using "GetPixel" function use:
+
+compile with g++ pixelRead.cpp -o <newname> -lGdi32  (a library)
+
+
+
+Check out this link if need additional help (first answer is pretty good, 
+you don't have to do the first "g++ -c main.cpp" command, can do it the way I say above):
+
+https://stackoverflow.com/questions/12886609/setting-up-glfw-with-mingw
