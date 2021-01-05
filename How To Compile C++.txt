@@ -21,3 +21,6 @@ Check out this link if need additional help (first answer is pretty good,
 you don't have to do the first "g++ -c main.cpp" command, can do it the way I say above):
 
 https://stackoverflow.com/questions/12886609/setting-up-glfw-with-mingw
+
+Use This Compiler:
+https://sourceforge.net/projects/mingw-w64/
